@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		471B126B18580734005018C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471B126A18580734005018C3 /* UIKit.framework */; };
+		471B126D18580734005018C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471B126C18580734005018C3 /* Foundation.framework */; };
+		471B126F18580734005018C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471B126E18580734005018C3 /* CoreGraphics.framework */; };
+		471B127518580734005018C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 471B127318580734005018C3 /* InfoPlist.strings */; };
+		471B127718580734005018C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 471B127618580734005018C3 /* main.m */; };
+		471B127B18580734005018C3 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 471B127A18580734005018C3 /* BIDAppDelegate.m */; };
+		471B127D18580734005018C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 471B127C18580734005018C3 /* Default.png */; };
+		471B127F18580734005018C3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471B127E18580734005018C3 /* Default@2x.png */; };
+		471B128118580734005018C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471B128018580734005018C3 /* Default-568h@2x.png */; };
+		471B128418580734005018C3 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471B128318580734005018C3 /* BIDViewController.m */; };
+		471B128718580734005018C3 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471B128518580734005018C3 /* BIDViewController.xib */; };
+		471B128F18580734005018C3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471B128E18580734005018C3 /* SenTestingKit.framework */; };
+		471B129018580734005018C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471B126A18580734005018C3 /* UIKit.framework */; };
+		471B129118580734005018C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471B126C18580734005018C3 /* Foundation.framework */; };
+		471B129918580734005018C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 471B129718580734005018C3 /* InfoPlist.strings */; };
+		471B129C18580734005018C3 /* LocalizeMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471B129B18580734005018C3 /* LocalizeMeTests.m */; };
+		471B12AA185810A8005018C3 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 471B12AC185810A8005018C3 /* flag.png */; };
+		471B12B71858167C005018C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 471B12B91858167C005018C3 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		471B129218580734005018C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 471B125D18580734005018C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471B126518580734005018C3;
+			remoteInfo = LocalizeMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		471B126618580734005018C3 /* LocalizeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		471B126A18580734005018C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		471B126C18580734005018C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		471B126E18580734005018C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		471B127218580734005018C3 /* LocalizeMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizeMe-Info.plist"; sourceTree = "<group>"; };
+		471B127418580734005018C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		471B127618580734005018C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		471B127818580734005018C3 /* LocalizeMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizeMe-Prefix.pch"; sourceTree = "<group>"; };
+		471B127918580734005018C3 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		471B127A18580734005018C3 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		471B127C18580734005018C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		471B127E18580734005018C3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		471B128018580734005018C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		471B128218580734005018C3 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		471B128318580734005018C3 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		471B128D18580734005018C3 /* LocalizeMeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizeMeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		471B128E18580734005018C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		471B129618580734005018C3 /* LocalizeMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizeMeTests-Info.plist"; sourceTree = "<group>"; };
+		471B129818580734005018C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		471B129A18580734005018C3 /* LocalizeMeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizeMeTests.h; sourceTree = "<group>"; };
+		471B129B18580734005018C3 /* LocalizeMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizeMeTests.m; sourceTree = "<group>"; };
+		471B12A818580E1F005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		471B12A918580E1F005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		471B12AB185810A8005018C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/flag.png; sourceTree = "<group>"; };
+		471B12AD1858110E005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/flag.png; sourceTree = "<group>"; };
+		471B12B81858167C005018C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		471B12BA1858167F005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		471B12C0185817BA005018C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		471B12C11858182C005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/BIDViewController.strings; sourceTree = "<group>"; };
+		471B12C31858182F005018C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BIDViewController.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		471B126318580734005018C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471B126B18580734005018C3 /* UIKit.framework in Frameworks */,
+				471B126D18580734005018C3 /* Foundation.framework in Frameworks */,
+				471B126F18580734005018C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471B128918580734005018C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471B128F18580734005018C3 /* SenTestingKit.framework in Frameworks */,
+				471B129018580734005018C3 /* UIKit.framework in Frameworks */,
+				471B129118580734005018C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		471B125B18580734005018C3 = {
+			isa = PBXGroup;
+			children = (
+				471B127018580734005018C3 /* LocalizeMe */,
+				471B129418580734005018C3 /* LocalizeMeTests */,
+				471B126918580734005018C3 /* Frameworks */,
+				471B126718580734005018C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		471B126718580734005018C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				471B126618580734005018C3 /* LocalizeMe.app */,
+				471B128D18580734005018C3 /* LocalizeMeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		471B126918580734005018C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				471B126A18580734005018C3 /* UIKit.framework */,
+				471B126C18580734005018C3 /* Foundation.framework */,
+				471B126E18580734005018C3 /* CoreGraphics.framework */,
+				471B128E18580734005018C3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		471B127018580734005018C3 /* LocalizeMe */ = {
+			isa = PBXGroup;
+			children = (
+				471B12B91858167C005018C3 /* Localizable.strings */,
+				471B12AC185810A8005018C3 /* flag.png */,
+				471B127918580734005018C3 /* BIDAppDelegate.h */,
+				471B127A18580734005018C3 /* BIDAppDelegate.m */,
+				471B128218580734005018C3 /* BIDViewController.h */,
+				471B128318580734005018C3 /* BIDViewController.m */,
+				471B128518580734005018C3 /* BIDViewController.xib */,
+				471B127118580734005018C3 /* Supporting Files */,
+			);
+			path = LocalizeMe;
+			sourceTree = "<group>";
+		};
+		471B127118580734005018C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				471B127218580734005018C3 /* LocalizeMe-Info.plist */,
+				471B127318580734005018C3 /* InfoPlist.strings */,
+				471B127618580734005018C3 /* main.m */,
+				471B127818580734005018C3 /* LocalizeMe-Prefix.pch */,
+				471B127C18580734005018C3 /* Default.png */,
+				471B127E18580734005018C3 /* Default@2x.png */,
+				471B128018580734005018C3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		471B129418580734005018C3 /* LocalizeMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				471B129A18580734005018C3 /* LocalizeMeTests.h */,
+				471B129B18580734005018C3 /* LocalizeMeTests.m */,
+				471B129518580734005018C3 /* Supporting Files */,
+			);
+			path = LocalizeMeTests;
+			sourceTree = "<group>";
+		};
+		471B129518580734005018C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				471B129618580734005018C3 /* LocalizeMeTests-Info.plist */,
+				471B129718580734005018C3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		471B126518580734005018C3 /* LocalizeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471B129F18580734005018C3 /* Build configuration list for PBXNativeTarget "LocalizeMe" */;
+			buildPhases = (
+				471B126218580734005018C3 /* Sources */,
+				471B126318580734005018C3 /* Frameworks */,
+				471B126418580734005018C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizeMe;
+			productName = LocalizeMe;
+			productReference = 471B126618580734005018C3 /* LocalizeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		471B128C18580734005018C3 /* LocalizeMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471B12A218580734005018C3 /* Build configuration list for PBXNativeTarget "LocalizeMeTests" */;
+			buildPhases = (
+				471B128818580734005018C3 /* Sources */,
+				471B128918580734005018C3 /* Frameworks */,
+				471B128A18580734005018C3 /* Resources */,
+				471B128B18580734005018C3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				471B129318580734005018C3 /* PBXTargetDependency */,
+			);
+			name = LocalizeMeTests;
+			productName = LocalizeMeTests;
+			productReference = 471B128D18580734005018C3 /* LocalizeMeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		471B125D18580734005018C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Crescens Techstars";
+			};
+			buildConfigurationList = 471B126018580734005018C3 /* Build configuration list for PBXProject "LocalizeMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = 471B125B18580734005018C3;
+			productRefGroup = 471B126718580734005018C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				471B126518580734005018C3 /* LocalizeMe */,
+				471B128C18580734005018C3 /* LocalizeMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		471B126418580734005018C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471B127518580734005018C3 /* InfoPlist.strings in Resources */,
+				471B127D18580734005018C3 /* Default.png in Resources */,
+				471B127F18580734005018C3 /* Default@2x.png in Resources */,
+				471B128118580734005018C3 /* Default-568h@2x.png in Resources */,
+				471B128718580734005018C3 /* BIDViewController.xib in Resources */,
+				471B12AA185810A8005018C3 /* flag.png in Resources */,
+				471B12B71858167C005018C3 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471B128A18580734005018C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471B129918580734005018C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		471B128B18580734005018C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		471B126218580734005018C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471B127718580734005018C3 /* main.m in Sources */,
+				471B127B18580734005018C3 /* BIDAppDelegate.m in Sources */,
+				471B128418580734005018C3 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471B128818580734005018C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471B129C18580734005018C3 /* LocalizeMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		471B129318580734005018C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 471B126518580734005018C3 /* LocalizeMe */;
+			targetProxy = 471B129218580734005018C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		471B127318580734005018C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471B127418580734005018C3 /* en */,
+				471B12A818580E1F005018C3 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		471B128518580734005018C3 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471B12C0185817BA005018C3 /* Base */,
+				471B12C11858182C005018C3 /* fr */,
+				471B12C31858182F005018C3 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+		471B129718580734005018C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471B129818580734005018C3 /* en */,
+				471B12A918580E1F005018C3 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		471B12AC185810A8005018C3 /* flag.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471B12AB185810A8005018C3 /* en */,
+				471B12AD1858110E005018C3 /* fr */,
+			);
+			name = flag.png;
+			sourceTree = "<group>";
+		};
+		471B12B91858167C005018C3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471B12B81858167C005018C3 /* en */,
+				471B12BA1858167F005018C3 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		471B129D18580734005018C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		471B129E18580734005018C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		471B12A018580734005018C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeMe/LocalizeMe-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeMe/LocalizeMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		471B12A118580734005018C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeMe/LocalizeMe-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeMe/LocalizeMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		471B12A318580734005018C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocalizeMe.app/LocalizeMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeMe/LocalizeMe-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeMeTests/LocalizeMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		471B12A418580734005018C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocalizeMe.app/LocalizeMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeMe/LocalizeMe-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeMeTests/LocalizeMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		471B126018580734005018C3 /* Build configuration list for PBXProject "LocalizeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471B129D18580734005018C3 /* Debug */,
+				471B129E18580734005018C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471B129F18580734005018C3 /* Build configuration list for PBXNativeTarget "LocalizeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471B12A018580734005018C3 /* Debug */,
+				471B12A118580734005018C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471B12A218580734005018C3 /* Build configuration list for PBXNativeTarget "LocalizeMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471B12A318580734005018C3 /* Debug */,
+				471B12A418580734005018C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 471B125D18580734005018C3 /* Project object */;
+}

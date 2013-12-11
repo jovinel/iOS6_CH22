@@ -1,0 +1,18 @@
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "8"; */
+"8.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Un"; ObjectID = "16"; */
+"16.text" = "Un";
+
+/* Class = "IBUILabel"; text = "Deux"; ObjectID = "21"; */
+"21.text" = "Deux";
+
+/* Class = "IBUILabel"; text = "Trois"; ObjectID = "26"; */
+"26.text" = "Trois";
+
+/* Class = "IBUILabel"; text = "Quatre"; ObjectID = "30"; */
+"30.text" = "Quatre";
+
+/* Class = "IBUILabel"; text = "Cinq"; ObjectID = "34"; */
+"34.text" = "Cinq";
