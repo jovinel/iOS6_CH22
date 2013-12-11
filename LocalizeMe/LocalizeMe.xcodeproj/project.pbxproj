@@ -60,6 +60,9 @@
 		471B129A18580734005018C3 /* LocalizeMeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizeMeTests.h; sourceTree = "<group>"; };
 		471B129B18580734005018C3 /* LocalizeMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizeMeTests.m; sourceTree = "<group>"; };
 		471B12A518580768005018C3 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		471B12A718580E1F005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		471B12A818580E1F005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		471B12A918580E1F005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +221,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = 471B125B18580734005018C3;
 			productRefGroup = 471B126718580734005018C3 /* Products */;
@@ -304,6 +308,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				471B127418580734005018C3 /* en */,
+				471B12A818580E1F005018C3 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -312,6 +317,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				471B128618580734005018C3 /* en */,
+				471B12A718580E1F005018C3 /* fr */,
 			);
 			name = BIDViewController.xib;
 			sourceTree = "<group>";
@@ -320,6 +326,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				471B129818580734005018C3 /* en */,
+				471B12A918580E1F005018C3 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
