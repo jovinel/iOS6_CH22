@@ -23,7 +23,8 @@
 		471B129118580734005018C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471B126C18580734005018C3 /* Foundation.framework */; };
 		471B129918580734005018C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 471B129718580734005018C3 /* InfoPlist.strings */; };
 		471B129C18580734005018C3 /* LocalizeMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471B129B18580734005018C3 /* LocalizeMeTests.m */; };
-		471B12A618580768005018C3 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 471B12A518580768005018C3 /* flag.png */; };
+		471B12AA185810A8005018C3 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 471B12AC185810A8005018C3 /* flag.png */; };
+		471B12B71858167C005018C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 471B12B91858167C005018C3 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +60,13 @@
 		471B129818580734005018C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		471B129A18580734005018C3 /* LocalizeMeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizeMeTests.h; sourceTree = "<group>"; };
 		471B129B18580734005018C3 /* LocalizeMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizeMeTests.m; sourceTree = "<group>"; };
-		471B12A518580768005018C3 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
 		471B12A718580E1F005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/BIDViewController.xib; sourceTree = "<group>"; };
 		471B12A818580E1F005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		471B12A918580E1F005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		471B12AB185810A8005018C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/flag.png; sourceTree = "<group>"; };
+		471B12AD1858110E005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/flag.png; sourceTree = "<group>"; };
+		471B12B81858167C005018C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		471B12BA1858167F005018C3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +126,8 @@
 		471B127018580734005018C3 /* LocalizeMe */ = {
 			isa = PBXGroup;
 			children = (
-				471B12A518580768005018C3 /* flag.png */,
+				471B12B91858167C005018C3 /* Localizable.strings */,
+				471B12AC185810A8005018C3 /* flag.png */,
 				471B127918580734005018C3 /* BIDAppDelegate.h */,
 				471B127A18580734005018C3 /* BIDAppDelegate.m */,
 				471B128218580734005018C3 /* BIDViewController.h */,
@@ -244,7 +249,8 @@
 				471B127F18580734005018C3 /* Default@2x.png in Resources */,
 				471B128118580734005018C3 /* Default-568h@2x.png in Resources */,
 				471B128718580734005018C3 /* BIDViewController.xib in Resources */,
-				471B12A618580768005018C3 /* flag.png in Resources */,
+				471B12AA185810A8005018C3 /* flag.png in Resources */,
+				471B12B71858167C005018C3 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +335,24 @@
 				471B12A918580E1F005018C3 /* fr */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		471B12AC185810A8005018C3 /* flag.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471B12AB185810A8005018C3 /* en */,
+				471B12AD1858110E005018C3 /* fr */,
+			);
+			name = flag.png;
+			sourceTree = "<group>";
+		};
+		471B12B91858167C005018C3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471B12B81858167C005018C3 /* en */,
+				471B12BA1858167F005018C3 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -459,6 +483,7 @@
 				471B12A118580734005018C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		471B12A218580734005018C3 /* Build configuration list for PBXNativeTarget "LocalizeMeTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +492,7 @@
 				471B12A418580734005018C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
